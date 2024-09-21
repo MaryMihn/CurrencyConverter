@@ -13,7 +13,7 @@ function App() {
         width: "100vw",
       }}
     >
-      <Header />
+      {/* <Header /> */}
       <CurrencyConverter />
     </Box>
   );

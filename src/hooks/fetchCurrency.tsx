@@ -12,7 +12,6 @@ export const fetchCurrency = async (
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
       const data = await response.json();
-      // return data.result.toFixed(2);
       return data.result?.toFixed(2);
     } catch (error) {
       console.error("Error fetching exchange rates:", error);
